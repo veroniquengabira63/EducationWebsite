@@ -1,0 +1,128 @@
+#page {
+    width: 1024px;
+    position: relative;
+    z-index: 1;
+    margin: 40px auto 60px;
+    min-height: calc(100vh - 75px);
+}
+.brief {
+    min-height: 130px;
+}
+.brief {
+    padding-top: 0;
+}
+.component {
+    padding: 20px;
+}
+.brief .profile-picture-wrap {
+    float: right;
+    margin-left: 10px;
+    margin-bottom: 6px;
+    position: relative;
+}
+.brief .artist-profile-image {
+    position: relative;
+    vertical-align: bottom;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+}
+h1 {
+    font-size: 27px;
+}
+.brief .events-count {
+    font-weight: 700;
+}
+.btn-go {
+    background-color: #d0eace;
+    border: 1px solid #9ec0a3;
+    box-shadow: inset 0 1px 0 0 #f8f8f8;
+    border-radius: 3px;
+}
+.performance-listings .performance {
+    margin-bottom: 20px;
+}
+.box, .box__notifier {
+    box-shadow: inset 5px 0 0 0 rgba(0,0,0,.1);
+}
+.box {
+    overflow: hidden;
+    background-color: #f7f7f7;
+}
+.performance-listings .event {
+    padding: 20px;
+    min-height: 72px;
+}
+.performance-listings .event-date, .performance-listings .event-location {
+    display: inline-block;
+    font-size: 18px;
+    line-height: 22px;
+    vertical-align: middle;
+    padding-right: 20px;
+}
+.performance-listings .event-date {
+    width: 255px;
+}
+.performance-listings .event-location {
+    width: 480px;
+}
+.performance-listings .icon-insight {
+    width: 30px;
+    height: 30px;
+}
+.performance-listings .event-actions {
+    display: inline-block;
+    float: right;
+    margin-top: -8px;
+}
+.performance-listings .btn--event-link {
+    font-size: 13px;
+    color: #0277ad;
+    padding: 0 8px;
+}
+.performance-listings .icon-trash {
+    margin: 3px 2px 0;
+}
+@media handheld, only screen and (max-width: 768px)
+{
+	#page 
+	{
+		display: flex;
+		flex-direction: column;
+		flex-wrap: nowrap;
+		margin: 10px;
+		width: auto;
+	}
+	.component {
+    padding-left: 0;
+    padding-right: 0;
+}
+.brief .profile-picture-wrap {
+    width: 40%;
+    text-align: right;
+}
+.brief .artist-profile-image {
+    width: 100%;
+    max-width: 185px;
+}
+.performance-listings .performance {
+    margin-bottom: 40px;
+}
+.performance-listings .event {
+    padding-top: 10px;
+    padding-bottom: 14px;
+    padding-right: 10px;
+}
+.performance-listings .event-location {
+    width: 75%;
+    padding-right: 2px;
+}
+.performance-listings .event-actions {
+    margin-top: 15px;
+    width: 100%;
+    float: inherit;
+}
+.performance-listings .event-actions .action-wrapper {
+    display: inline-block;
+}
+}

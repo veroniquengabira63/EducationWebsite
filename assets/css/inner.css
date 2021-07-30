@@ -1,0 +1,675 @@
+body.offcanvas-active{
+    overflow:hidden;
+}
+.offcanvas-header{ display:none; }
+.navbar{
+  height: 100%;
+  background-color:black;
+  color:white;
+}
+.navbar-nav li a{
+  font-size: 18px;
+  font-weight: 500;
+}
+.dropdown-menu {
+  min-width: 320px !important;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 7px;
+}
+.nav_clg_text li a{
+    font-size: 16px;
+    color: #545454;
+    text-decoration: none;
+
+}
+
+body.offcanvas-active{
+    overflow:hidden;
+}
+.offcanvas-header{ display:none; }
+.header_bg{
+    background-color: black;}
+
+.header_bg_1{
+        background-color:black;}
+
+
+.btn{
+    font-size: 18px;
+    color: black;
+    font-weight: 500;
+}
+.logo_img a img{
+    width:60%;
+}
+
+.card-body{
+    background-color:#e6e6e6;
+}
+.nav_ul_pad{
+    padding-right: 90px;
+}
+
+.side_text ul{
+    list-style: none;
+}
+.slide_bar{
+    background-color: white;
+    width: 100%;
+    height: 800px;
+    overflow: auto;
+}
+
+.list-group{
+    overflow: auto;
+    height: 700px;
+}
+.collage_content ul li{
+    list-style: none;
+    display:inline;
+    font-size: 10px;
+}
+.content_btn{
+    width: 49%;
+    background-color: #f26522;
+    color: white;
+    font-weight: 600;
+    border-radius: 0;
+    font-size: 14px;
+}
+
+.content_btn_1{
+    width: 49%;
+    background-color: transparent;
+    color:#f26522;
+    font-weight: 600;
+    font-size: 14px;
+}
+    
+.content_tr_1 {
+    background-color: #b7b7b7;
+    color:white;
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center;
+}
+.clg_top{
+    position:relative;
+}
+.college_name {
+    position: absolute;
+    top: -40px;
+    left: 19%;
+    color: #fff;
+    font-size: 15px;
+    background: #0000007a;
+    padding: 10px;
+    width: 80%;
+    height: 37px;
+    overflow: hidden;
+    font-weight: 800;
+}
+
+.uni_logo {
+    position: absolute;
+    top: 85px;
+    left: 7px;
+    border: 1px solid #fff;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+img.cover {
+    height: 115px;
+    object-fit: cover;
+}
+.search_clg{
+    border: 1px solid black;
+}
+.search_clg input{
+    border: none;
+    outline: none;
+    width: 80%;
+    background-color: transparent;
+}
+
+.collage_content_1 ul li{
+    list-style: none;
+    font-size: 16px;
+    display:inline;
+    color:#f26522;
+}
+
+.collage_content_2{
+    color:grey;
+    font-size: 12px;
+}
+
+.footer_text{
+    position: relative;
+    color:white;
+
+}
+.footer_text p{
+    font-size: 18px;
+}
+.footer_text h5{
+    font-size: 22px;
+}
+.footer ul li {
+    list-style: none;
+}
+
+.footer ul li a{
+    color:white;
+    text-decoration: none;
+}
+.footer_img a img{
+    width:5.5%;
+    padding-top: 30px;
+}
+.footer_img img{
+    width:30%;
+}
+
+
+@media only screen and (max-width: 1300px){
+
+    .clg_top{
+        position:relative;
+    }
+    .uni_logo{
+        position: absolute;
+        top:75px;
+        left:20px;
+    }
+
+}
+@media only screen and (max-width: 1200px){
+    .logo_img a img{
+        width:60%;
+    }
+    .nav_ul_pad{
+        padding-right: 70px;
+    }
+    .collage_content_2{
+        color:grey;font-size: 13px;
+    }
+    .content_btn{
+        width: 49%;
+        background-color: #f26522;
+        color: white;
+        font-weight: 600;
+        border-radius: 0;
+        font-size: 10px;
+    }
+    
+    .content_btn_1{
+        width: 49%;
+        background-color: transparent;
+        color:#f26522;
+        font-weight: 600;
+        font-size: 10px;
+    }
+    .navbar-nav li a{
+        font-size: 16px;
+        font-weight: 500;
+      }
+      .clg_top{
+        position:relative;
+    }
+    .uni_logo{
+        position: absolute;
+        top:65px;
+        left:20px;
+    }
+
+    .home_item {
+        padding-left: 400px;
+    }
+    .content_tr td{
+        font-size: 10px;
+        text-align: right;
+        font-weight: 600;
+    }
+    .collage_content_1 ul li{
+        list-style: none;
+        font-size:18px;
+        display:inline;
+        color:#f26522;  
+        
+    }
+
+.footer_text{
+    position: relative;
+    color:white;
+
+}
+.footer_text p{
+    font-size: 20px;
+}
+.slide_bar{
+    background-color: white;
+    width: 100%;
+    height: 600px;
+    
+}
+.list-group{
+    overflow: auto;
+    height: 500px;
+}
+.dropdown-menu {
+    min-width: 250px !important;
+  }
+  .footer_img a img{
+    width:5.5%;
+    padding-top: 23px;
+}
+
+}
+@media only screen and (max-width: 1080px){
+    .nav_ul_pad{
+        padding-right: 40px;
+    }
+    .navbar-nav li a{
+        font-size: 16px;
+        font-weight: 500;
+      }
+  
+    .dropdown-menu {
+        min-width: 250px !important;
+      }
+      .collage_content_2{
+        color:grey;font-size: 13px;
+    }
+    
+    .content_btn{
+        width: 49%;
+        background-color: #f26522;
+        color: white;
+        font-weight: 600;
+        border-radius: 0;
+        font-size: 10px;
+    }
+    
+    .content_btn_1{
+        width: 49%;
+        background-color: transparent;
+        color:#f26522;
+        font-weight: 600;
+        font-size: 10px;
+    }
+    .collage_content_1 ul li p{
+        list-style: none;
+        font-size: 16px;
+        display:inline;
+        color:#f26522;  
+        
+    } 
+    .collage_content_1 ul li ~ p{
+        list-style: none;
+        font-size: 10px;
+        display:inline;
+        color:#969696;  
+        
+    } 
+    .collage_content_1   p{
+       font-size: 10px;  
+        
+    } 
+    
+    .slide_bar{
+        background-color: white;
+        width: 100%;
+        height: 600px;
+    }
+    .list-group{
+        overflow: auto;
+        height: 600px;
+    }
+  
+}
+@media (max-width: 992px) {
+  .offcanvas-header{ display:block; }
+  .navbar-collapse {
+    position: fixed;
+    top:0; 
+    bottom: 0;
+    left: 100%;
+    width: 100%;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    overflow-y: auto;
+    visibility: hidden;
+    background-color: black;
+    transition: visibility .2s ease-in-out, transform .2s ease-in-out;
+  }
+  .navbar-collapse.show {
+    visibility: visible;
+    transform: translateX(-100%);
+  }
+  .logo_img a img{
+    width:25%;
+}
+.nav_ul_pad{
+    padding-right: 50px;
+}
+.navbar-nav li a{
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .clg_top{
+    position:relative;
+}
+.uni_logo{
+    position: absolute;
+    top:110px;
+    left:20px;
+}
+  .collage_content_2{
+    color:grey;font-size: 13px;
+}
+  .content_btn{
+    width: 49%;
+    background-color: #f26522;
+    color: white;
+    font-weight: 600;
+    border-radius: 0;
+}
+.dropdown-menu {
+    min-width: 250px !important;
+  }
+  
+.content_btn_1{
+    width: 49%;
+    background-color: transparent;
+    color:#f26522;
+    font-weight: 600;
+}
+.footer_img img{
+    width:40%;
+}
+.footer_img a img{
+    width:6%;
+    padding-top: 23px;
+}
+.copyright h6{
+    font-size: 14px;
+}
+}
+
+@media all and (max-width: 968px){
+
+    .slide_bar{
+        background-color: white;
+        width: 100%;
+        height: 30%;
+        overflow: auto;
+    }
+}
+@media only screen and (max-width: 900px){
+        
+    .home_item{
+        text-align: left;
+    }  
+    
+    .clg_top{
+        position:relative;
+    }
+    .uni_logo{
+        position: absolute;
+        top:100px;
+        left:20px;
+    }
+    .footer_text{
+        position: relative;
+        color:white;
+    
+    }
+    .footer_text p{
+        font-size: 16px;
+    }
+    
+
+    
+    }
+
+    @media only screen and (max-width: 767px){
+        
+    
+        .footer_text{
+            position: relative;
+            color:white;
+        
+        }
+        .footer_text p{
+            font-size: 16px;
+        }
+        .content_btn{
+            width: 49%;
+            background-color: #f26522;
+            color: white;
+            font-weight: 600;
+            border-radius: 0;
+        }
+        .clg_top{
+            position:relative;
+        }
+        .uni_logo{
+            position: absolute;
+            top:75px;
+            left:20px;
+        }
+        .footer ul li + li {
+            list-style: none;
+            display:inline;
+            border-right: 1px solid rgb(105, 105, 105);
+            padding-right: 10px;
+            padding-left:10px;
+        }
+        .collage_content_1 ul li{
+            list-style: none;
+            font: size 18px;
+            display:inline;
+            color:#f26522;  
+            
+        } 
+        .footer ul li a{
+            color:white;
+            text-decoration: none;
+        }
+        .footer_img img{
+            width:50%;
+        }
+        
+        .footer_img a img{
+            width:7%;
+            padding-top: 23px;
+        }
+        .copyright h6{
+            font-size: 10px;
+        }
+        
+    }
+
+    @media only screen and (max-width: 575px){
+        .heading_h1 h1{
+            font-size: 28px;
+        }
+  
+        .collage_content ul li{
+            list-style: none;
+            display:inline;
+            font-size: 14px;
+        }
+        .collage_content_1 ul li{
+            list-style: none;
+            font: size 16px;
+            display:inline;
+            color:#f26522;  
+            
+        } 
+        .content_btn{
+            width: 49%;
+            background-color: #f26522;
+            color: white;
+            font-weight: 600;
+            border-radius: 0;
+            font-size: 12px;
+        }
+        
+        .content_btn_1{
+            width: 49%;
+            background-color: transparent;
+            color:#f26522;
+            font-weight: 600;
+            font-size: 12px;
+        }
+        .clg_top{
+            position:relative;
+        }
+        .uni_logo{
+            position: absolute;
+            top:130px;
+            left:20px;
+        }
+        .footer_text{
+            color:white;
+        
+        }
+        .footer_text p{
+            font-size: 18px;
+        }
+          .content_btn{
+            width: 49.5%;
+            background-color: #f26522;
+            color: white;
+            font-weight: 600;
+            border-radius: 0;
+        }
+        .footer_img a img{
+            width:9%;
+            padding-top: 23px;
+        }
+        
+        .footer_img img{
+            width:60%;
+        }
+        .copyright h6{
+            font-size: 10px;
+        }
+    }
+    @media only screen and (max-width: 480px){
+        .copyright h6{
+            font-size: 10px;
+        }
+        .clg_top{
+            position:relative;
+        }
+        .uni_logo{
+            position: absolute;
+            top: 75px;
+            left: 10px;
+        }
+        .footer ul li a{
+            color:white;
+            text-decoration: none;
+            font-size: 14px;
+        }
+        .footer ul li a h5{
+            color:white;
+            text-decoration: none;
+            font-size:16px;
+        }
+        .collage_content ul li{
+            list-style: none;
+            display:inline;
+            font-size: 10px;
+        }
+    }
+    @media only screen and (max-width: 380px){
+        .clg_top{
+            position:relative;
+        }
+        .uni_logo{
+            position: absolute;
+            top:80px;
+            left:20px;
+        }
+    }
+    @media only screen and (max-width: 320px){
+        .content_tr td{
+            font-size: 11px;
+            text-align: right;
+            font-weight: 600;
+        }
+        .content_tr_1 td{
+            background-color: #b7b7b7;
+            color:white;
+            font-size: 11px;
+            font-weight: 500;
+            text-align: center;
+        }    
+            .content_btn{
+                width: 49.5%;
+                background-color: #f26522;
+                color: white;
+                font-weight: 600;
+                border-radius: 0;
+                font-size: 12px;
+            }    
+            
+            .content_btn_1{
+                width: 49%;
+                background-color: transparent;
+                color:#f26522;
+                font-weight: 600;
+                font-size: 12px;
+            }
+            .clg_top{
+                position:relative;
+            }
+            .uni_logo{
+                position: absolute;
+                top:70px;
+                left:20px;
+            }
+        .footer_text{
+            position: relative;
+            color:white;
+        
+        }
+        .footer_img a img{
+            width:15%;
+            padding-top: 15px;
+        }
+        
+        .footer_img img{
+            width:80%;
+        }
+        .copyright h6{
+            font-size: 10px;
+        }
+        .footer ul li a{
+            color:white;
+            text-decoration: none;
+            font-size: 14px;
+        }
+        .footer ul li a h5{
+            color:white;
+            text-decoration: none;
+            font-size:16px;
+        }
+    }
+    
+       
+    @media only screen and (max-width: 320px){
+
+
+        .copyright h6{
+            font-size: 8px;
+        }
+    }
+
+

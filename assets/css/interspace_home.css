@@ -1,0 +1,309 @@
+  .searchinput{
+    line-height: 100%;
+    display: table;
+    margin: 0;
+    width: 100%;
+    position: absolute; 
+    text-align: center;
+    top: -50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.header_bg_1 .top_course h2{
+    color: white!important;
+}
+
+.Study_Abroad h6{
+    color: white!important;
+}
+
+.top_exams .jee_mains h5{
+    color: white!important;
+}
+
+.text{
+    width: 60%;
+    padding: 9px;
+    color: green;
+    border: 1px solid green;
+    box-shadow: 1px 0px 3px green;
+    border-radius: 50px 0 0px 50px;
+    font-size: 15px;
+    text-transform: capitalize;
+    outline: none;
+}
+
+::-webkit-input-placeholder{
+    color: green;
+}
+
+::-moz-input-placeholder{
+    color: green;
+}
+
+::-ms-input-placeholder{
+    color: green;
+}
+
+.text:focus{
+    box-shadow: 1px 1px 8px green;
+}
+
+.submit{
+        padding: 10px;
+    height: 40px;
+    width: 40px;
+    font-size: 13px;
+    color: white;
+    background: green;
+    border: none;
+    margin: 0;
+    border-radius: 0px 50px 50px 0px;
+    box-shadow: 0px 0px 10px green;
+    outline: none;
+}
+.course_btn a button {
+    width: 100px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    border: 1px solid;
+    margin:5px 5px 0 0;
+}
+
+.submit:active{
+    box-shadow: 0px 0px 7px green;
+}
+.grid-content {
+    margin-top: 30px;
+    padding-bottom: 20px;
+}
+.grid-content .grid-5 {
+    width: 19%;
+    display: inline-block;
+    padding: 20px 10px 10px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.grid-content .grid-5 .grid-list {
+    text-align: center;
+}
+.grid-content .details h4 {
+    font-size: 15.1px;
+    color: #4f5767;
+    font-weight: 500;
+    margin-bottom: 8px;
+    letter-spacing: .5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.grid-content .details p {
+    font-size: 13.3px;
+    line-height: 1.6;
+    color: #7b7b7b;
+    font-weight: 600;
+}
+
+.grid-content .grid-5 .grid-list {
+    text-align: center;
+}
+.seaction_header {
+    text-align: center;
+    padding-top: 20px;
+}
+.seaction_header h3 {
+    font-size: 35.6px;
+    color: #2a602e;
+    font-weight: 900;
+    margin-bottom: 5px;
+}
+@media only screen and (max-width: 480px) {
+  .grid-content .grid-5 {
+    width: 32%;
+    display: inline-block;
+    padding: 20px 10px 10px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+}
+.course-col {
+    
+    padding: 10px;
+    margin: 10px 0;
+}
+.course-col img{
+    height:100px;
+    object-fit:cover;
+    width:100%;
+}
+.course-col h4 {
+   color: #100963!important;
+    background: #fff;
+    padding: 10px;
+}
+.top_course h2 , .top_course h4{
+    color: #fff!important;
+}
+.trending_college .item {
+    background: #fff;
+    height: 100%;
+    transition: .5s ease-out;
+    text-align: left;
+    border-radius: 8px;
+    border: 1px solid #eee;
+}
+
+.imageZoom {
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    margin-bottom: 6px;
+    max-height: 125px;
+}
+.imageZoom:hover img {
+    cursor: pointer;
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+ .item .imageZoom:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.6);
+    opacity: .6;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.item img {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    display: block;
+    width: 100%;
+    transition: all .8s;
+}
+.item .text {
+    padding: 10px;
+    text-align: left;
+    width: 100%;
+    border-radius: 0;
+    box-shadow: none;
+    border: none;
+}
+.item .text a {
+    color: #333;
+    margin-bottom: 10px;
+    padding: 0;
+    text-align: left;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration:none;
+    width:100%;
+}
+.trending_colleges a {
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    color: #348fd6;
+    display: inline-block;
+}
+section.grey-bg {
+    background-color: #f7f7f7;
+}
+ul.foot_nav li a {
+    color: #000;
+    font-size: 14px;
+}
+ul.foot_nav li{
+    margin:5px 0;
+    border-bottom:1px solid #eee;
+    padding:10px;
+    display: block!important;
+}
+ul.foot_nav li i{
+    margin:0 10px 0 0;
+    background:#000;
+    /* padding: 5px; */
+    color : #fff;
+    font-size: 13px;
+    border-radius: 10px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.footer h4 
+{
+    margin-bottom:30px;
+    position: relative;
+}
+.footer h4:after{
+    content:'';
+    position:absolute;
+    top: 120%;
+    left: 0%;
+    width:80px;
+    height:2px;
+    background:#333a26;
+}
+
+    .filter_meny ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 10px;
+
+}
+.filter_meny ul{
+    width: 800px;
+    overflow: auto;
+    white-space:nowrap;
+}
+@media (max-width:767px){
+    .filter_meny ul{
+    width: 300px;
+    overflow: auto;
+    white-space:nowrap;
+}
+}
+.filter_meny {
+    padding: 15px 0;
+}
+.filter_meny li a{
+    border:1px solid;
+    padding: 5px 10px;
+}
+.filter_meny li.active a{
+    background:#007bff;
+    color:#fff;
+}
+ul.finalResult li {
+   
+   padding:10px;
+   cursor:pointer;
+   border-bottom: 1px solid #eee;
+  
+}
+ul.finalResult {
+   list-style:none;
+   padding:10px;
+   position: absolute;
+    top: 50px;
+    background: #000;
+}
+.box-shadow{
+    box-shadow:0px 5px 10px 1px #0000004a
+}
+#spin-loader {
+    color: #000;
+    position: absolute;
+    left: 97%;
+    top: 17px;
+    z-index: 111111;
+}

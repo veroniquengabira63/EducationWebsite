@@ -1,0 +1,140 @@
+  .searchinput{
+    line-height: 100%;
+    display: table;
+    margin: 0;
+    width: 100%;
+    position: absolute; 
+    text-align: center;
+    top: -50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.header_bg_1 .top_course h2{
+    color: white!important;
+}
+
+.Study_Abroad h6{
+    color: white!important;
+}
+
+.top_exams .jee_mains h5{
+    color: white!important;
+}
+
+.text{
+    width: 60%;
+    padding: 9px;
+    color: green;
+    border: 1px solid green;
+    box-shadow: 1px 0px 3px green;
+    border-radius: 50px 0 0px 50px;
+    font-size: 15px;
+    text-transform: capitalize;
+    outline: none;
+}
+
+::-webkit-input-placeholder{
+    color: green;
+}
+
+::-moz-input-placeholder{
+    color: green;
+}
+
+::-ms-input-placeholder{
+    color: green;
+}
+
+.text:focus{
+    box-shadow: 1px 1px 8px green;
+}
+
+.submit{
+        padding: 10px;
+    height: 40px;
+    width: 40px;
+    font-size: 13px;
+    color: white;
+    background: green;
+    border: none;
+    margin: 0;
+    border-radius: 0px 50px 50px 0px;
+    box-shadow: 0px 0px 10px green;
+    outline: none;
+}
+.course_btn a button {
+    width: 100px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    border: 1px solid;
+    margin:5px 5px 0 0;
+}
+
+.submit:active{
+    box-shadow: 0px 0px 7px green;
+}
+.grid-content {
+    margin-top: 30px;
+    padding-bottom: 20px;
+}
+.grid-content .grid-5 {
+    width: 19%;
+    display: inline-block;
+    padding: 20px 10px 10px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.grid-content .grid-5 .grid-list {
+    text-align: center;
+}
+.grid-content .details h4 {
+    font-size: 15.1px;
+    color: #4f5767;
+    font-weight: 500;
+    margin-bottom: 8px;
+    letter-spacing: .5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.grid-content .details p {
+    font-size: 13.3px;
+    line-height: 1.6;
+    color: #7b7b7b;
+    font-weight: 600;
+}
+
+.grid-content .grid-5 .grid-list {
+    text-align: center;
+}
+.seaction_header {
+    text-align: center;
+    padding-top: 20px;
+}
+.seaction_header h3 {
+    font-size: 35.6px;
+    color: #2a602e;
+    font-weight: 900;
+    margin-bottom: 5px;
+}
+@media only screen and (max-width: 480px) {
+  .grid-content .grid-5 {
+    width: 32%;
+    display: inline-block;
+    padding: 20px 10px 10px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+}
+.course-col {
+    border: 1px solid;
+    padding: 50px;
+    margin: 10px 0;
+}
+.top_course h2 , .top_course h4{
+    color: #fff!important;
+}
+.course-col h4{
+    color:#fff!important;
+}

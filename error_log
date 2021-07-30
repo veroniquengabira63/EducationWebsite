@@ -1,0 +1,11 @@
+[03-Jan-2020 11:55:28 Etc/GMT] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/zindagis/public_html/abjjvs.org/application/views/register.php on line 6
+[29-May-2020 11:38:16 Asia/Kolkata] PHP Fatal error:  Cannot redeclare Admin::add_categories() in /home/thevirtu/public_html/edupedia.org.in/application/controllers/Admin.php on line 2107
+[30-May-2020 16:38:40 Asia/Kolkata] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/thevirtu/public_html/edupedia.org.in/application/controllers/Home.php on line 37
+[30-May-2020 16:41:02 Asia/Kolkata] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/thevirtu/public_html/edupedia.org.in/application/controllers/Home.php on line 37
+[23-Jun-2020 13:50:08 Asia/Kolkata] PHP Fatal error:  require_once(): Failed opening required '/home/thevirtu/public_html/edupedia.org.inapplication/views/common/header.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/thevirtu/public_html/edupedia.org.in/application/views/user-dashboard/dashboard.php on line 1
+[23-Jun-2020 17:38:14 Asia/Kolkata] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/thevirtu/public_html/edupedia.org.in/application/views/user-dashboard/edit-profilee.php on line 289
+[15-Jul-2020 11:34:03 UTC] PHP Warning:  POST Content-Length of 68218862 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[22-Feb-2021 07:51:07 UTC] PHP Warning:  POST Content-Length of 47485853 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[22-Feb-2021 07:51:11 UTC] PHP Warning:  POST Content-Length of 47485853 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[22-Feb-2021 07:54:29 UTC] PHP Warning:  POST Content-Length of 47485853 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[22-Feb-2021 08:03:31 UTC] PHP Warning:  POST Content-Length of 47485853 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
